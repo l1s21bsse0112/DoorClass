@@ -8,7 +8,10 @@ private:
 
 public:
     Door();
-    void openDoor();
+	void openDoor() {
+		cout << "door is opening ....." << endl;
+	}
+
     void closeDoor();
     void lockDoor();
     void unlock();
