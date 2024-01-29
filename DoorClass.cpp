@@ -15,7 +15,11 @@ public:
     void closeDoor();
     void lockDoor();
     void unlock();
-    bool isDoorOpen() const;
+	
+    bool isDoorOpen() const {
+		return true;
+	}
+	
     bool isDoorLocked() const;
 };
 
