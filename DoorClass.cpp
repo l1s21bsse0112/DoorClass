@@ -12,7 +12,10 @@ public:
 		cout << "door is opening ....." << endl;
 	}
 
-    void closeDoor();
+    void closeDoor() {
+        cout << "Door is Closing.....\n\n";
+    }
+
     void lockDoor();
     void unlock();
 	
