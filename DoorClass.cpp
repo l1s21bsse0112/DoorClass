@@ -17,7 +17,11 @@ public:
     }
 
     void lockDoor();
-    void unlock();
+    void unlock()
+{
+	cout <<"The Door has been unlocked\n\n";
+}
+
 	
     bool isDoorOpen() const {
 		return true;
