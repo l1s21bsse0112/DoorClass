@@ -14,6 +14,7 @@ public:
 
     void closeDoor() {
         cout << "Door is Closing.....\n\n";
+		cout << "Door is closed successfully\n\n";
     }
 
     void lockDoor(){
