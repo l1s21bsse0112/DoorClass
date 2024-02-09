@@ -25,11 +25,13 @@ public:
 	}
 	
     void unlock(){
-		cout <<"The Door has been unlocked\n\n";
+		cout << "The Door is getting unlocked\n\n";
+		cout << "The Door has been unlocked successfully\n\n";
 	}
 
 	
     bool isDoorOpen() const {
+		cout << "Done\n\n";
 		return true;
 	}
 	
