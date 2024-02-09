@@ -30,6 +30,7 @@ public:
 
 	
     bool isDoorOpen() const {
+		cout << "Done\n\n";
 		return true;
 	}
 	
