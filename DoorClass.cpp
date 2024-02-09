@@ -29,7 +29,9 @@ public:
 		return true;
 	}
 	
-    bool isDoorLocked() const;
+    bool isDoorLocked() const{
+		return true;
+	}
 };
 
 int main() {
