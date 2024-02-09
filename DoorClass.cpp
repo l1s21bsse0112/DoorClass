@@ -16,11 +16,13 @@ public:
         cout << "Door is Closing.....\n\n";
     }
 
-    void lockDoor();
-    void unlock()
-{
-	cout <<"The Door has been unlocked\n\n";
-}
+    void lockDoor(){
+		cout << "The Door has been locked.\n\n";
+	}
+	
+    void unlock(){
+		cout <<"The Door has been unlocked\n\n";
+	}
 
 	
     bool isDoorOpen() const {
