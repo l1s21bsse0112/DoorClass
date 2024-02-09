@@ -19,7 +19,9 @@ public:
     }
 
     void lockDoor(){
-		cout << "The Door has been locked.\n\n";
+		cout << "The Door is getting locked.\n\n";
+		cout << "The Door has been locked succesfully\n\n";
+		cout << "Exiting lockDoor function\n\n";
 	}
 	
     void unlock(){
