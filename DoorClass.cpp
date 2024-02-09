@@ -10,6 +10,7 @@ public:
     Door();
 	void openDoor() {
 		cout << "door is opening ....." << endl;
+		cout << "Door opened Successfully.\n\n";
 	}
 
     void closeDoor() {
